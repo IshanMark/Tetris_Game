@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Tetris_Game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Asset\Background.png" />
+    <None Remove="Asset\Block-Empty.png" />
+    <None Remove="Asset\Block-I.png" />
+    <None Remove="Asset\Block-J.png" />
+    <None Remove="Asset\Block-L.png" />
+    <None Remove="Asset\Block-O.png" />
+    <None Remove="Asset\Block-S.png" />
+    <None Remove="Asset\Block-T.png" />
+    <None Remove="Asset\Block-Z.png" />
+    <None Remove="Asset\TileBlue.png" />
+    <None Remove="Asset\TileCyan.png" />
+    <None Remove="Asset\TileEmpty.png" />
+    <None Remove="Asset\TileGreen.png" />
+    <None Remove="Asset\TileOrange.png" />
+    <None Remove="Asset\TilePurple.png" />
+    <None Remove="Asset\TileRed.png" />
+    <None Remove="Asset\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Asset\Background.png" />
+    <Resource Include="Asset\Block-Empty.png" />
+    <Resource Include="Asset\Block-I.png" />
+    <Resource Include="Asset\Block-J.png" />
+    <Resource Include="Asset\Block-L.png" />
+    <Resource Include="Asset\Block-O.png" />
+    <Resource Include="Asset\Block-S.png" />
+    <Resource Include="Asset\Block-T.png" />
+    <Resource Include="Asset\Block-Z.png" />
+    <Resource Include="Asset\TileBlue.png" />
+    <Resource Include="Asset\TileCyan.png" />
+    <Resource Include="Asset\TileEmpty.png" />
+    <Resource Include="Asset\TileGreen.png" />
+    <Resource Include="Asset\TileOrange.png" />
+    <Resource Include="Asset\TilePurple.png" />
+    <Resource Include="Asset\TileRed.png" />
+    <Resource Include="Asset\TileYellow.png" />
+  </ItemGroup>
+
+</Project>
